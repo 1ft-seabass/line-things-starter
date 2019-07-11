@@ -19,7 +19,7 @@ let clickCount = 0;
 window.onload = () => {
     initializeApp();
     
-    document.getElementById("USER_SERVICE_UUID") = USER_SERVICE_UUID;
+    document.getElementById("USER_SERVICE_UUID").innerText = USER_SERVICE_UUID;
 };
 
 // ----------------- //
